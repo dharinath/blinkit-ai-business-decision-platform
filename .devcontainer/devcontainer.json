@@ -1,0 +1,12 @@
+{
+  "name": "Blinkit AI Dev",
+  "features": {
+    "ghcr.io/devcontainers/features/postgres:1": {
+      "version": "15",
+      "database": "mydb",
+      "user": "postgres",
+      "password": "secret"
+    }
+  },
+  "forwardPorts": [5432]
+}
