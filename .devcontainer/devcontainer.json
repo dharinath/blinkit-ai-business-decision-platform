@@ -8,5 +8,17 @@
       "password": "secret"
     }
   },
-  "forwardPorts": [5432]
+  "forwardPorts": [5432],
+  "services": {
+    "postgres": {
+      "image": "postgres:15",
+      "restart": "unless-stopped",
+      "ports": ["5432:5432"],
+      "environment": {
+        "POSTGRES_USER": "postgres",
+        "POSTGRES_PASSWORD": "secret",
+        "POSTGRES_DB": "mydb"
+      }
+    }
+  }
 }
