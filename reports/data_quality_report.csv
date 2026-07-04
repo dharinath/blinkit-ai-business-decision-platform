@@ -1,7 +1,7 @@
 Dataset,Rows,Columns,Duplicate Rows,Total Null Values,Memory Usage (KB)
-orders,5000,10,0,0,462.78
-customers,2500,11,0,0,417.78
-products,268,10,0,0,31.26
-marketing,5400,11,0,0,614.67
-feedback,5000,8,0,0,576.77
-order_items,5000,4,0,0,156.38
+customers,2500,11,0,0,425.1
+products,268,10,0,0,32.57
+orders,5000,10,0,0,482.32
+order_items,5000,4,0,0,171.03
+marketing,5400,11,0,0,635.76
+feedback,5000,8,0,0,591.42
