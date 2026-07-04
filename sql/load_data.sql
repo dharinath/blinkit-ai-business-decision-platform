@@ -1,0 +1,1 @@
+-- Placeholder SQL for loading data into the database
